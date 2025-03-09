@@ -12,6 +12,6 @@ app.get("/api/data", (c) => {
 
 // import { serve } from "@hono/node-server";
 // serve({ fetch: app.fetch, port: 7700 });
+// console.log("🚀 Server running at http://localhost:7700");
 
-console.log("🚀 Server running at http://localhost:7700");
 export default app;
