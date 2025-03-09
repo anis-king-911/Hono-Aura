@@ -1,0 +1,21 @@
+{
+  "name": "hono-demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
