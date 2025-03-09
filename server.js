@@ -14,3 +14,4 @@ app.get("/api/data", (c) => {
 // serve({ fetch: app.fetch, port: 7700 });
 
 console.log("🚀 Server running at http://localhost:7700");
+export default app;
